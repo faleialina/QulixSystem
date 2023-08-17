@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.header .img {
+    background-image: url(./assets/Group\ 3739.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 76px;
+    height: 48px;
+   margin: auto;
+}
+
+.header .btns {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin-left: 246px;
+    margin: auto;
+}
+
+.header .btns .aud {
+    color: #FFF;
+    font: 400 20px Poppins;
+}
+
+.header .btns .sum {
+    color: #FFF;
+    font: 400 20px Poppins;
+}
+
+.header .btns .speck {
+    color: #FFF;
+    font: 400 20px Poppins;
+}
+
+.header .btns select {
+    display: none;
+}
+
+@media screen and (max-width: 990px) {
+    .header {
+        padding: 5%;
+    }
+
+    .header .btns {
+        display: none;
+    }
+
+    .header .btns select {
+        display: inline-block;
+    }
+}

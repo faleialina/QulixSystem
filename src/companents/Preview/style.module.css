@@ -1,0 +1,412 @@
+.bannerBgr {
+    background: url(./assets/Banner.jpg);
+    width: 100%;
+}
+
+.banner {
+    max-width: 1220px;
+    margin: auto;
+    padding: 5% 0;
+}
+
+.banner h2 {
+    color: #FFF;
+    font: 400 30px Poppins;
+    text-align: center;
+    letter-spacing: 7.2px;
+    text-transform: uppercase;
+}
+
+.banner h1 {
+    color: #FFF;
+    font: 800 80px Poppins;
+    text-align: center;
+    line-height: 101.9%;
+    margin-top: 35px;
+}
+
+.banner p {
+    color: #FFF;
+    font: 400 30px Poppins;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.banner .form {
+    max-width: 970px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(15px);
+    margin: auto;
+    padding: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 45px;
+}
+
+.banner .form input {
+    width: 425px;
+    padding: 14px 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.80);
+    outline: none;
+    border-width: 0px;
+    font: 400 25px Poppins;
+}
+
+.banner .form input::placeholder {
+    color: #B4B4B4;
+    font: 400 25px Poppins;
+}
+
+.banner .btn {
+    margin: auto;
+    color: #0A85FF;
+    font: 700 24px Poppins;
+    padding: 18px 0;
+    gap: 10px;
+    border-radius: 20px;
+    background: #FFF;
+    width: 180px;
+    text-align: center;
+    margin-top: 45px;
+}
+
+@media screen and (max-width: 990px) {
+
+    .banner {
+        padding: 5%;
+    }
+
+    .banner h1 {
+        font-size: 50px
+    }
+
+    .banner .form {
+        max-width: 90%;
+    }
+
+    .banner .form div {
+        flex: 1 0 100%;
+    }
+
+    .banner .form input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+
+    .banner h1 {
+        font-size: 40px
+    }
+
+    .banner h2 {
+        font-size: 25px
+    }
+
+    .banner p {
+        font-size: 18px
+    }
+
+    .banner .form input {
+        font-size: 18px
+    }
+
+    .banner .form input::placeholder {
+        font-size: 18px
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .banner h1 {
+        font-size: 25px
+    }
+
+    .banner h2 {
+        font-size: 14px
+    }
+
+
+    .banner p {
+        font-size: 18px
+    }
+
+    .banner .form input {
+        font-size: 18px
+    }
+
+    .banner .form input::placeholder {
+        font-size: 18px
+    }
+
+    .banner .btn {
+        font-size: 18px
+    }
+}
+
+
+
+.targetAudience {
+    width: 100%;
+    margin: auto;
+    padding: 5% 0;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.targetAudience h1 {
+    color: var(--color-2, #0A85FF);
+    text-align: center;
+    font: 600 45px Poppins;
+}
+
+.targetAudience .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+    flex-wrap: wrap;
+
+}
+
+.targetAudience .info .startUp {
+    width: 370px;
+
+
+}
+
+.targetAudience .info .startUp .img {
+    background-image: url(./assets/start_up.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 78px;
+    height: 78px;
+    margin: auto;
+
+}
+
+.targetAudience .info .startUp p {
+    color: #3E3E3E;
+    text-align: center;
+    font: 300 22px Poppins;
+    margin-top: 24px;
+}
+
+.targetAudience .info .business {
+    width: 370px;
+}
+
+.targetAudience .info .business .img {
+    background-image: url(./assets/business.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 78px;
+    height: 78px;
+    margin: auto;
+}
+
+.targetAudience .info .business p {
+    color: #3E3E3E;
+    text-align: center;
+    font: 300 22px Poppins;
+    margin-top: 24px;
+}
+
+.targetAudience .info .investor {
+    width: 370px;
+}
+
+.targetAudience .info .investor .img {
+    background-image: url(./assets/investor.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 78px;
+    height: 78px;
+    margin: auto;
+}
+
+.targetAudience .info .investor p {
+    color: #3E3E3E;
+    text-align: center;
+    font: 300 22px Poppins;
+    margin-top: 24px;
+}
+
+.targetAudience .btn {
+    color: #FFF;
+    font: 700 24px Poppins;
+    padding: 18px 45px;
+    margin: auto;
+    gap: 10px;
+    border-radius: 20px;
+    background: var(--color-1, #33D0CE);
+    width: 192px;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 990px) {
+
+    .targetAudience {
+        padding: 5%;
+    }
+
+    .targetAudience h1 {
+        font-size: 50px
+    }
+
+    .targetAudience .info {
+        max-width: 90%;
+    }
+
+    .targetAudience .info .startUp,
+    .business,
+    .investor {
+        flex: 1 0 100%;
+    }
+
+    .targetAudience .info .startUp,
+    .business,
+    .investor {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    .targetAudience h1 {
+        font-size: 40px
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    .targetAudience h1 {
+        font-size: 25px
+    }
+
+    .targetAudience .btn {
+        font-size: 18px
+    }
+}
+
+
+.specker {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 5% 0;
+    background: #FFF;
+    flex-wrap: wrap;
+}
+
+.specker .img {
+    background-image: url(./assets/Arabey\,\ Alexander\ 1\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 739px;
+    height: 1106px;
+}
+
+.specker .info {
+    width: 568px;
+}
+
+.specker .info h1 {
+    color: #0A85FF;
+    font: 600 45px Poppins;
+}
+
+.specker .info h2 {
+    color: #B0B0B0;
+    font: 300 20px Poppins;
+    margin-top: 11px;
+}
+
+.specker .info p {
+    color: #3E3E3E;
+    font: 300 25px Poppins;
+    margin-top: 60px;
+}
+
+.specker .btn {
+    color: #FFF;
+    font: 700 24px Poppins;
+    padding: 18px 45px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #33D0CE;
+    width: 250px;
+    height: 71px;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 990px) {
+
+    .specker {
+        padding: 5%;
+    }
+
+    .specker .img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: bottom;
+        border-radius: 50%;
+        overflow: hidden;
+
+    }
+
+    .specker h1 {
+        font-size: 50px
+    }
+}
+
+@media screen and (max-width: 560px) {
+
+    .specker .info h1 {
+        font-size: 40px
+    }
+
+    .specker .info h2 {
+        font-size: 25px
+    }
+
+    .specker .info p {
+        font-size: 18px
+    }
+
+
+}
+
+@media screen and (max-width: 360px) {
+
+    .specker .info h1 {
+        font-size: 25px
+    }
+
+    .specker .info h2 {
+        font-size: 14px
+    }
+
+
+    .specker .info p {
+        font-size: 18px
+    }
+
+    .specker .btn {
+        font-size: 18px
+    }
+}
