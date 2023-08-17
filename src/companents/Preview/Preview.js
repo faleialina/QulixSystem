@@ -24,7 +24,6 @@ function Preview() {
                 </div>
             </div>
 
-
             <div className={style.targetAudience}>
                 <h1>The webinar is best for</h1>
                 <div className={style.info}>
@@ -44,8 +43,6 @@ function Preview() {
                 <div className={style.btn}><Link to={'/auth'}>Register</Link></div>
             </div>
 
-
-
             <div className={style.specker}>
                 <div className={style.img}></div>
                 <div className={style.info}>
@@ -57,7 +54,6 @@ function Preview() {
             </div>
 
         </div>
-
     )
 };
 export default Preview;
