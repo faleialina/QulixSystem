@@ -21,35 +21,83 @@
     margin: auto;
 }
 
-.header .btns .aud {
+.header .btns .aud,
+.sum,
+.speck {
     color: #FFF;
     font: 400 20px Poppins;
 }
 
-.header .btns .sum {
-    color: #FFF;
-    font: 400 20px Poppins;
-}
-
-.header .btns .speck {
-    color: #FFF;
-    font: 400 20px Poppins;
-}
-
-.header .btns select {
+.sidebar {
     display: none;
 }
 
 @media screen and (max-width: 990px) {
-    .header {
-        padding: 5%;
-    }
 
     .header .btns {
         display: none;
     }
 
-    .header .btns select {
-        display: inline-block;
+    .sidebar {
+        position: fixed;
+        width: 250px;
+        background: #57626F;
+        border-right: 4px solid #E0E5EA;
+        border-radius: 10px;
+        right: -260px;
+        top: 10px;
+        padding-bottom: 10px;
+
+        -moz-transition: all 600ms;
+        -webkit-transition: all 600ms;
+        transition: all 600ms;
+        display: flex;
     }
+
+    .toggleBtn {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .sidebar ul li:first-child {
+        text-align: center;
+        color: white;
+        font-size: 1.95em;
+        list-style: none;
+        padding: 25px 10px 10px 10px;
+    }
+
+    .sidebar ul li:not(:first-child) {
+        width: 90%;
+        margin-left: 10%;
+        font-size: 1.1em;
+        list-style: none;
+        padding: 15px 10px;
+    }
+
+    .sidebar ul li a {
+        color: #E0E5EA;
+        text-decoration: none;
+    }
+
+    .sidebar ul li a:hover {
+        color: #84b6e4;
+
+    }
+
+    .sidebar .toggleBtn {
+        position: absolute;
+        right: 300px;
+        top: 20px;
+        background: #E0E5EA;
+        padding: 10px;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+
+    .sidebar .toggleBtn:hover {
+        background: #556270;
+    }
+
 }

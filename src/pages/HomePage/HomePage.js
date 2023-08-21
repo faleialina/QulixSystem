@@ -1,4 +1,3 @@
-import Header from "../../companents/Header/Header";
 import Preview from "../../companents/Preview/Preview";
 
 
